@@ -1,5 +1,9 @@
 # Curso-Git-y-GitHub
-En esta primera práctica utilicé algunos comandos de git, fueron los siguientes:
+### Aquí puedes ver las prácticas con git y github que voy realizando.
+
+* Práctica 1: 
+
+    En esta primera práctica utilicé algunos comandos de git, fueron los siguientes:
 ```bash
     git init #incia el repositorio
     git add [archivo] #añade un archivo al área de preparación
@@ -24,3 +28,19 @@ En estos ejercicios de git practiqué con algunos comandos básicos para comenza
 Aquí se puede ver el historial de la práctica:
 
 ![Práctica 1](./img/Pr%C3%A1ctica%201.png)
+
+* Práctica 2: 
+    En esta práctica utilicé los comandos:
+```bash 
+    git stash
+    git stash apply
+```
+Es práctica fue necesaria para practicar el uso de stash en conjunto con commits, pull requests y la creacion de ramas.
+
+En esta práctica realicé algunas simulaciones de qué sucedería si estás realizando cambios en una rama, creas un pull request y quieres continuar realizando cambios en otra rama y borrar la rama anterior. 
+
+El resultado es que al utilizar stash, el pull request se incorpora sin problema y puedes recuperar los cambios que hagas en tu nueva rama a través del stash sin haber, claro está, haber hecho commits en esta nueva rama. El resultado de esta práctica es que obtienes un control de versiones bastante limpio. 
+
+![Práctica 2](./img/Pr%C3%A1ctica%202.png)
+
+Es claro que, sin realizar el stash y simplemente guardando los cambios en los archivos que estes editando, obtendrías el mismo comportamiento. Una historia de versiones limpia. Sin embargo, el stash nos permite tener un respaldo por si, por algún motivo los avances se pierden. 
