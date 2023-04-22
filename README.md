@@ -4,6 +4,7 @@
 * Práctica 1: 
 
     En esta primera práctica utilicé algunos comandos de git, fueron los siguientes:
+
 ```bash
     git init #incia el repositorio
     git add [archivo] #añade un archivo al área de preparación
@@ -22,7 +23,6 @@
     git status #nos muestra el estado del repositorio
     git reset --hard [commit] #resetea el repositorio a un commit en la historia del respositorio sin mantener los cambios de las confirmaciones posteriores.
 ```
-
 
 En estos ejercicios de git practiqué con algunos comandos básicos para comenzar a utilizar más agilmente git y github.
 Aquí se puede ver el historial de la práctica:
